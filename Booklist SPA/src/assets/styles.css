@@ -1,0 +1,84 @@
+/* Paleta de Colores - Booky e-library */
+:root {
+  --color-fondo-crema: #FDFBF7;
+  --color-gris-claro: #F2EFE9;
+  --color-madera-clara: #D8C5B5;
+  --color-azul-pizarra: #3B5266;
+  --color-verde-olivo: #556B2F;
+  --color-verde-olivo-suave: #F4F7EE;
+  --color-texto: #2C3539;
+}
+
+/* Fondo general */
+body {
+  background-color: var(--color-fondo-crema);
+  color: var(--color-texto);
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+}
+
+/* Header */
+header.bg-pizarra {
+  background-color: var(--color-azul-pizarra);
+}
+
+/* Botones de Navegación */
+.btn-nav-custom {
+  --bs-btn-color: #ffffff;
+  --bs-btn-bg: rgba(255, 255, 255, 0.15);
+  --bs-btn-border-color: rgba(255, 255, 255, 0.3);
+  --bs-btn-hover-color: #ffffff;
+  --bs-btn-hover-bg: rgba(255, 255, 255, 0.3);
+  --bs-btn-hover-border-color: rgba(255, 255, 255, 0.5);
+  font-weight: 600;
+  background-color: rgba(255, 255, 255, 0.15);
+  color: #ffffff;
+}
+
+.btn-nav-custom.btn-nav-active {
+  --bs-btn-color: #ffffff;
+  --bs-btn-bg: var(--color-verde-olivo);
+  --bs-btn-border-color: #ffffff;
+  font-weight: 700;
+  background-color: var(--color-verde-olivo);
+  color: #ffffff;
+}
+
+/* Botón Verde Olivo (Mover a Inicio / Guardar cambios) */
+.btn-verde-olivo {
+  --bs-btn-color: #ffffff;
+  --bs-btn-bg: var(--color-verde-olivo);
+  --bs-btn-border-color: #435424;
+  --bs-btn-hover-color: #ffffff;
+  --bs-btn-hover-bg: #435424;
+  --bs-btn-hover-border-color: #323f1b;
+  background-color: var(--color-verde-olivo);
+  color: #ffffff;
+  border-color: #435424;
+  font-weight: 600;
+}
+
+/* Botón Azul Pizarra (Volver a Catálogo / Guardar en Catálogo) */
+.btn-azul-pizarra {
+  --bs-btn-color: #ffffff;
+  --bs-btn-bg: var(--color-azul-pizarra);
+  --bs-btn-border-color: #2c3d4c;
+  --bs-btn-hover-color: #ffffff;
+  --bs-btn-hover-bg: #2c3d4c;
+  --bs-btn-hover-border-color: #1e2a35;
+  background-color: var(--color-azul-pizarra);
+  color: #ffffff;
+  border-color: #2c3d4c;
+  font-weight: 600;
+}
+
+/* Badge e Insignias */
+.badge-verde-olivo {
+  background-color: var(--color-verde-olivo);
+  color: #ffffff;
+}
+
+/* Ficha Destacada */
+.card-destacado-olivo {
+  background-color: var(--color-verde-olivo-suave);
+  border: 2px solid var(--color-verde-olivo);
+}
